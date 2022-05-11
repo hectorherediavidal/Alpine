@@ -49,3 +49,11 @@
   
    <br>
   <br>
+  
+## 7- Ahora nos pedirá que disco queremos usar::
+  ![maquina]( https://github.com/hectorherediavidal/Alpine/blob/main/img/21.PNG  "")  
+  <br>
+  - Seleccionamos sda y despues escribimos sys
+  - Nos pedira borrar el disco, escribimos "y" para hacerlo
+  - Una vez que este borrado, debemos reiniciar la máquina
+  
