@@ -38,9 +38,9 @@
   
   
 ## 6- En esta parte debemos seleccionar unas cuantas opciones:
-  ![maquina]( https://github.com/hectorherediavidal/Alpine/blob/main/img/1.PNG  "")
+  ![maquina]( https://github.com/hectorherediavidal/Alpine/blob/main/img/20.PNG  "")
   <br>
-  - Localhost
+  - Elegimos localhost
   - Interfaz eth0
   - Seleccionamos iniciar con eth0
   - Seleccionamos la ip por DHCP
