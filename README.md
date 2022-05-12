@@ -2,7 +2,7 @@
 
 
 
-## 1- El primer es descargar alpine linux desde tu pagina web
+## 1- El primer paso es descargar alpine linux desde tu pagina web
   ![descarga]( https://github.com/hectorherediavidal/Alpine/blob/main/img/17.PNG "")
   <br>
   <br>
@@ -62,4 +62,58 @@
   ![maquina]( https://github.com/hectorherediavidal/Alpine/blob/main/img/22.PNG  "")
   <br>
   ![maquina]( https://github.com/hectorherediavidal/Alpine/blob/main/img/23.PNG  "")
+  <br>
+  <br>
+  
+  
+## 9- Una vez que tengamos la maquina encendida debemos iniciar sesión como root y poner la contraseña que hemos puesto antes
+<br>
+A continuación debemos usar el siguiente comando:
+<br>
+    vi /etc/ssh/sshd_config
+  
+  
+## 10- Una vez dentro, debemos bajar hasta la linea 32 y realizar los siguientes cambios:
+![maquina]( https://github.com/hectorherediavidal/Alpine/blob/main/img/31.PNG  "")
+  
+  
+  - Y ahora usamos el comando "service sshd restart"
+  - Necesitamos ver la ip de la máquina, y podemos hacerlo con el comando "ip a".
+<br>
+<br>
+
+- Ahora debemos usar GIT para conectarnos a la maquina de Alpine
+<br>
+<br>
+
+
+## 12- Usamos el siguiente comando cambiando la ip por la ip que tengas en tu maquina de Alpine
+![maquina]( https://github.com/hectorherediavidal/Alpine/blob/main/img/32.PNG  "")
+<br>
+<br>
+
+
+## 12- Ahora debemos cambiar unos archivos, asi que usamos el siguiente comando:
+  -vi /etc/apk/repositories.
+<br>
+
+![maquina]( https://github.com/hectorherediavidal/Alpine/blob/main/33.PNG "")
+
+
+  - Ahora usamos el comando "apk add docker" para instalar Docker en Git.
+<br>
+<br>
+
+## 13- Usamos el comando "service docker start" para iniciar Docker
+
+  - Y ahora usamos "docker run -p 8989:80 -d nginx
+
+
+## 13- Para comprobar que todo ha funcionado, vamos a lanzar un "docker run hello-world" para ver si todo ha funcionado.
+
+![maquina]( https://github.com/hectorherediavidal/Alpine/blob/main/34.PNG "")
+
+
+
+
   
